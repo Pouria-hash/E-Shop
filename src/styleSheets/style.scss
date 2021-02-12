@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+
+}
+footer{
+    margin-top: auto;
+}
+.navbar{
+    padding: 0.5rem 1rem;
+}
+.carousel-caption{
+position: absolute;
+top: 0;
+}
+.carousel-caption h3{
+color: white;
+}
+.carousel img{
+    width: 300px;
+    height: 300px;
+    padding:30px;
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.product{
+    height: 430px;
+}
+
+.card-image{
+    width: 100%;
+    max-height: 250px;
+    object-fit: scale-down;
+}
